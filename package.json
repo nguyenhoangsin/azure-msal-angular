@@ -1,5 +1,5 @@
 {
-  "name": "my-angular-app",
+  "name": "azure-msal-angular",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
@@ -17,6 +17,9 @@
     "@angular/platform-browser": "^19.2.0",
     "@angular/platform-browser-dynamic": "^19.2.0",
     "@angular/router": "^19.2.0",
+    "@azure/msal-angular": "^4.0.7",
+    "@azure/msal-browser": "^4.8.0",
+    "ngx-json-viewer": "^3.2.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.15.0"
