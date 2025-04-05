@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-angular-app": {
+    "azure-msal-angular": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:application",
           "options": {
-            "outputPath": "dist/my-angular-app",
+            "outputPath": "dist/azure-msal-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
             "polyfills": [
@@ -64,10 +64,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "my-angular-app:build:production"
+              "buildTarget": "azure-msal-angular:build:production"
             },
             "development": {
-              "buildTarget": "my-angular-app:build:development"
+              "buildTarget": "azure-msal-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
