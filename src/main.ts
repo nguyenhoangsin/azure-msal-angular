@@ -1,3 +1,4 @@
+import 'zone.js';
 import { bootstrapApplication } from '@angular/platform-browser';
 import { MsalService, MSAL_INSTANCE } from '@azure/msal-angular';
 import { PublicClientApplication } from '@azure/msal-browser';
